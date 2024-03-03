@@ -1,3 +1,8 @@
 # This is a comment
 # Each line is a file pattern followed by one or more owners
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+gem "github-pages", group: :jekyll_plugins
+title: [Profile Portfolio]
+description: [This is used to showcase what I have done in my project]
